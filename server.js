@@ -1,6 +1,7 @@
 const http = require('http')
 const express = require('express')
 const es6Renderer = require('express-es6-template-engine')
+const pgp = require('pg-promise')();
 const data = require('./data')
 
 const hostname = '127.0.0.1'
